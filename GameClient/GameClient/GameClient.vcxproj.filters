@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\Resource">
+      <UniqueIdentifier>{d02914c1-1ca7-4fd9-8ca4-e7a1fe967c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Resource\Player">
+      <UniqueIdentifier>{528a7817-c91b-4e60-b9e8-4068c3452647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Resource\Item">
+      <UniqueIdentifier>{0facf125-8ef9-487f-ad2f-567846cb744f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Resource\Item\Weapons">
+      <UniqueIdentifier>{4b58f904-2580-460f-8aae-44b9923cc3eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinder.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinder.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GameClient.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\Resource\Example 1.gif">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\Example 2.gif">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\Example 3.gif">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\Example 4.gif">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\Example 5 ( Old Version).png">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\MusicCover.png">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\Palette.png">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\preview-part-1.png">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\preview-part-2.png">
+      <Filter>리소스 파일\Resource</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SeparateAnim\Attack.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SeparateAnim\Dead.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SeparateAnim\Idle.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SeparateAnim\Item.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SeparateAnim\Jump.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SeparateAnim\Special1.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SeparateAnim\Special2.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SeparateAnim\Walk.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\Faceset.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Actor\Characters\Knight\SpriteSheet.png">
+      <Filter>리소스 파일\Resource\Player</Filter>
+    </Image>
+    <Image Include="..\Resource\Items\Weapons\Sword2\Sword.png">
+      <Filter>리소스 파일\Resource\Item\Weapons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resource\LICENSE.txt">
+      <Filter>리소스 파일\Resource</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\README.md">
+      <Filter>리소스 파일\Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>
